@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalpavriksh Associates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Kalpavriksh Associates</h1>
+            <p>Creating Spaces That Inspire</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Who We Are Section -->
+    <section id="about" class="section">
+        <h2>Who We Are</h2>
+        <div class="section-content">
+            <p>We are a team of passionate architects focused on creating innovative and functional spaces. With a focus on excellence—and attention to detail, we bring our vision to life through architecture that is both aesthetic and practical.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="assets/images/architectural-design.jpg" alt="Architectural Design">
+            <p>Architectural Design</p>
+        </div>
+        <div class="service">
+            <img src="assets/images/interior-design.jpg" alt="Interior Design">
+            <p>Interior Design</p>
+        </div>
+        <div class="service">
+            <img src="assets/images/urban-planning.jpg" alt="Urban Planning">
+            <p>Urban Planning</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="work" class="section">
+        <h2>Our Work</h2>
+        <div class="portfolio">
+            <img src="assets/images/project1.jpg" alt="Project 1">
+            <img src="assets/images/project2.jpg" alt="Project 2">
+            <img src="assets/images/project3.jpg" alt="Project 3">
+        </div>
+    </section>
+
+    <!-- Client Testimonials Section -->
+    <section id="testimonials" class="section">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial">
+            <p>"Working with Kalpavriksh Associates was a fantastic experience. Their attention to detail and creativity was unmatched."</p>
+            <p>- Client Name</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kalpavriksh Associates. All rights reserved.</p>
+    </footer>
+</body>
+</html>
